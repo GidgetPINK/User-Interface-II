@@ -66,6 +66,17 @@ body {
     margin-top: 30px;
 }
 
+.container h3 {
+    font-family: 'Chango', cursive;
+    font-size: 20px;
+}
+
+.container button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -82,14 +93,17 @@ body {
     position: absolute;
     top: 25%;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     text-transform: uppercase;
+    font-family: 'Chango', cursive;
 }
 
 .banner button {
     padding: 15px;
     margin: 2% 35%;
-    width: 100px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .gallery1,
@@ -97,6 +111,12 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 70px;
+}
+
+p {
+    text-align: center;
+    margin: 25px 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -108,6 +128,8 @@ footer button {
     padding: 15px;
     margin: 2% 50%;
     width: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 
