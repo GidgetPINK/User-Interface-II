@@ -82,7 +82,7 @@ body {
 
 footer {
     background: linear-gradient(#000, #c3c3c3);;
-    height: 120px;
+    height: auto;
 }
 
 /*================================
@@ -126,7 +126,8 @@ footer {
 
 .banner button:hover,
 .container button:hover,
-footer button:hover {
+footer button:hover,
+.fa:hover {
     background: white;
     color: palevioletred;
     border: 1px solid palevioletred;
@@ -134,7 +135,7 @@ footer button:hover {
 
 footer button {
     padding: 15px;
-    margin: 2% 50%;
+    margin: 2% 45%;
     width: 150px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -180,8 +181,36 @@ p {
     font-size: 25px;
 }
 
+/*==========================
+    Social Media Icon Styling
+============================*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+}
 
+.fa-facebook {
+    background: palevioletred;
+    color: white;
+}
 
+.fa-twitter {
+    background: #000;
+    color: white;
+  }
 
-
+.fa-instagram {
+    background: palevioletred;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #000;
+    color: white;
+  }
 
