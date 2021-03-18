@@ -66,11 +66,40 @@ body {
     margin-top: 30px;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.gallery1,
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+footer {
+    background: linear-gradient(#000, #c3c3c3);;
+    height: 120px;
+}
+
+/*================================
+ H3 and H1 Styles
+==================================*/
 .container h3 {
     font-family: 'Chango', cursive;
     font-size: 20px;
 }
 
+.banner h1 {
+    text-shadow: 1px 1px 2px black;
+}
+
+/*==================================
+ Button Styles
+====================================*/
 .container button {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -83,34 +112,6 @@ body {
     width: 120px;
 }
 
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;
-}
-
-.banner h1 {
-    text-shadow: 1px 1px 2px black;
-}
-
-.banner img {
-    max-width: 700px;
-    height: auto;
-    filter: saturate(7);
-    box-shadow: 3px 3px palevioletred, -1em 0 .4em lightgrey;
-    border-radius: 5px;
-}
-
-.banner-text {
-    position: absolute;
-    top: 25%;
-    color: white;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
-}
-
 .banner button {
     padding: 15px;
     margin: 2% 38%;
@@ -121,7 +122,6 @@ body {
     border: none;
     border-radius: 5px;
     background: palevioletred;
-
 }
 
 .banner button:hover,
@@ -130,31 +130,6 @@ footer button:hover {
     background: white;
     color: palevioletred;
     border: 1px solid palevioletred;
-}
-
-.gallery1,
-.gallery2 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 70px;
-}
-
-.gallery1 img,
-.gallery2 img {
-    box-shadow: 5px 10px 18px #888;
-    border-radius: 5px;
-}
-
-p {
-    text-align: center;
-    margin: 25px 0;
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-}
-
-footer {
-    background: linear-gradient(#C3C3C3, #000);;
-    height: 120px;
 }
 
 footer button {
@@ -168,5 +143,45 @@ footer button {
     border-radius: 5px;
     background: palevioletred;
 }
+
+/*================================
+    Image Styles
+==================================*/
+.banner img {
+    max-width: 700px;
+    height: auto;
+    filter: saturate(7);
+    box-shadow: 3px 3px palevioletred, -1em 0 .4em lightgrey;
+    border-radius: 5px;
+}
+
+.gallery1 img,
+.gallery2 img {
+    box-shadow: 5px 10px 18px #888;
+    border-radius: 5px;
+}
+
+/*============================
+    Text Styles
+==============================*/
+.banner-text {
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Chango', cursive;
+}
+
+p {
+    text-align: center;
+    margin: 25px 0;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+
+
+
 
 
