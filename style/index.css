@@ -123,6 +123,12 @@ footer {
     background: palevioletred;
 }
 
+.banner button:focus,
+.container button:focus,
+footer button:focus {
+    border: 2px solid black;
+}
+
 .banner button:hover,
 .container button:hover,
 footer button:hover,
