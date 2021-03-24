@@ -94,7 +94,8 @@ footer {
 }
 
 .banner h1 {
-    text-shadow: 6.25% 6.25% 12.5% black;
+    text-shadow: 2px 2px 2px black;
+    color: white;
 }
 
 /*==================================
